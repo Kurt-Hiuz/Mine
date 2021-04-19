@@ -1,0 +1,37 @@
+USE Insurance
+CREATE TABLE Posts (
+Name CHAR(20) PRIMARY KEY NOT NULL,
+Descr CHAR(200)
+);
+
+CREATE TABLE Departments (
+Name CHAR(40) PRIMARY KEY NOT NULL,
+Descr CHAR(200),
+Minutes_talked INTEGER NOT NULL
+);
+
+CREATE TABLE Workers (
+Id_worker INTEGER IDENTITY(1,1) PRIMARY KEY,
+Name CHAR(50) NOT NULL,
+Department CHAR(40) NOT NULL
+FOREIGN KEY REFERENCES Departments(Name),
+Post CHAR(20) NOT NULL
+FOREIGN KEY REFERENCES Posts(Name),
+Telephone_num CHAR(15) NOT NULL,
+Minutes_talked INTEGER NOT NULL
+);
+
+CREATE TABLE Clients (
+Id_client INTEGER IDENTITY(1,1) PRIMARY KEY,
+Name CHAR(50),
+Telephone_num CHAR(15) NOT NULL
+);
+
+CREATE TABLE Call (
+Id_call INTEGER IDENTITY(1,1) PRIMARY KEY,
+Client_num INTEGER
+FOREIGN KEY REFERENCES Clients(Id_client),
+Id_worker INTEGER
+FOREIGN KEY REFERENCES Workers(Id_worker),
+Minutes_talked INTEGER NOT NULL
+)

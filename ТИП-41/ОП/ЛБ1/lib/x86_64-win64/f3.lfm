@@ -1,0 +1,22 @@
+object Form3: TForm3
+  Left = 256
+  Height = 140
+  Top = 641
+  Width = 323
+  Caption = 'Разработчик'
+  ClientHeight = 140
+  ClientWidth = 323
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 128
+    Top = 8
+    Width = 312
+    AutoSize = False
+    Caption = 'Программа создана учеником группы ТИП-41'#13#10'МТКП им. Баумана'#13#10'Симоняном Павлом'
+    Font.Height = 30
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+end

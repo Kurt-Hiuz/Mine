@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 269
+  Height = 554
+  Top = 144
+  Width = 722
+  Caption = 'Form1'
+  ClientHeight = 554
+  ClientWidth = 722
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Memo1: TMemo
+    Left = 424
+    Height = 282
+    Top = 56
+    Width = 280
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object ListBox1: TListBox
+    Left = 16
+    Height = 282
+    Top = 56
+    Width = 280
+    ItemHeight = 0
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 21
+    Top = 24
+    Width = 52
+    Caption = 'Список'
+    Font.Height = 22
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 304
+    Height = 120
+    Top = 136
+    Width = 111
+    Caption = 'Добавить файл'
+    Font.Height = 15
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object ComboBox1: TComboBox
+    Left = 424
+    Height = 23
+    Top = 24
+    Width = 108
+    ItemHeight = 15
+    OnChange = ComboBox1Change
+    Style = csDropDownList
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 33
+    Top = 344
+    Width = 110
+    Caption = 'Добавить в список'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 16
+    Height = 33
+    Top = 384
+    Width = 110
+    Caption = 'Очистить список'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+end

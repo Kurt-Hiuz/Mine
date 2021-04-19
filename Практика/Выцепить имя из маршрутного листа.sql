@@ -1,0 +1,1 @@
+select r.ShipNumber, s.skipper from routelist r, ship s where r.shipnumber = s.RegNumber and r.ShipNumber = 'AB1123RUS76'

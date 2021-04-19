@@ -1,0 +1,146 @@
+object Form2: TForm2
+  Left = 256
+  Height = 254
+  Top = 350
+  Width = 739
+  Caption = 'Лабораторная работа 1'
+  ClientHeight = 254
+  ClientWidth = 739
+  Color = clWhite
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    Left = 24
+    Height = 74
+    Top = 24
+    Width = 160
+    Caption = 'Показать задание'
+    Font.Height = 15
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 24
+    Height = 74
+    Top = 104
+    Width = 160
+    Caption = 'Показать создателя'
+    Font.Height = 15
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Bevel1: TBevel
+    Left = 16
+    Height = 168
+    Top = 16
+    Width = 176
+    Style = bsRaised
+  end
+  object Label1: TLabel
+    Left = 208
+    Height = 33
+    Top = 16
+    Width = 336
+    AutoSize = False
+    Caption = 'Формула требует ввода значений m, n и c'
+    Font.Color = clBlack
+    Font.Height = 17
+    ParentColor = False
+    ParentFont = False
+    OptimalFill = True
+  end
+  object Edit1: TEdit
+    Left = 210
+    Height = 27
+    Top = 138
+    Width = 90
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 208
+    Height = 18
+    Top = 104
+    Width = 97
+    Caption = 'Значение m'
+    Font.Color = clBlack
+    Font.Height = 17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 330
+    Height = 18
+    Top = 104
+    Width = 92
+    Caption = 'Значение n'
+    Font.Color = clBlack
+    Font.Height = 17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 330
+    Height = 27
+    Top = 138
+    Width = 90
+    OnKeyPress = Edit2KeyPress
+    TabOrder = 3
+  end
+  object Label4: TLabel
+    Left = 450
+    Height = 18
+    Top = 104
+    Width = 90
+    Caption = 'Значение c'
+    Font.Color = clBlack
+    Font.Height = 17
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit3: TEdit
+    Left = 450
+    Height = 27
+    Top = 138
+    Width = 90
+    OnKeyPress = Edit3KeyPress
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Left = 208
+    Height = 21
+    Top = 48
+    Width = 295
+    Caption = 'N не может быть равным нулю'
+    Font.Color = 327878
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button3: TButton
+    Left = 552
+    Height = 168
+    Top = 16
+    Width = 176
+    Caption = 'Найти решение'
+    DoubleBuffered = True
+    Font.Color = clWhite
+    Font.Height = 20
+    OnClick = Button3Click
+    ParentDoubleBuffered = False
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 27
+    Top = 192
+    Width = 560
+    Caption = 'Нажмите кнопку справа, чтобы найти решение'
+    Font.Color = clBlack
+    Font.Height = 25
+    ParentColor = False
+    ParentFont = False
+  end
+end

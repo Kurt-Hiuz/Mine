@@ -1,0 +1,149 @@
+object Form1: TForm1
+  Left = 304
+  Height = 524
+  Top = 137
+  Width = 621
+  Caption = 'Form1'
+  ClientHeight = 524
+  ClientWidth = 621
+  OnKeyPress = Edit1PressKey
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 120
+    Height = 25
+    Top = 32
+    Width = 337
+    Caption = 'Уравнение задается коэффициентами'
+    Font.Height = 25
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 48
+    Top = 96
+    Width = 130
+    AutoSize = False
+    Caption = 'При второй'#10'степени (А)'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 200
+    Height = 48
+    Top = 96
+    Width = 130
+    AutoSize = False
+    Caption = 'При первой'#10'степени (B)'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 376
+    Height = 48
+    Top = 96
+    Width = 130
+    AutoSize = False
+    Caption = 'При нулевой'#10'степени (С)'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 176
+    Width = 130
+    OnKeyPress = Edit1PressKey
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 200
+    Height = 23
+    Top = 176
+    Width = 130
+    OnKeyPress = Edit2PressKey
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 376
+    Height = 23
+    Top = 176
+    Width = 130
+    OnKeyPress = Edit3PressKey
+    TabOrder = 2
+  end
+  object Label5: TLabel
+    Left = 152
+    Height = 23
+    Top = 176
+    Width = 48
+    AutoSize = False
+    Caption = 'X² + '
+    Font.Height = 20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 336
+    Height = 23
+    Top = 176
+    Width = 40
+    AutoSize = False
+    Caption = 'X + '
+    Font.Height = 20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 512
+    Height = 23
+    Top = 176
+    Width = 40
+    AutoSize = False
+    Caption = '= 0'
+    Font.Height = 20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 16
+    Height = 23
+    Top = 224
+    Width = 152
+    AutoSize = False
+    Caption = 'Результат решения:'
+    Font.Height = 20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 16
+    Height = 64
+    Top = 256
+    Width = 528
+    AutoSize = False
+    Caption = 'Нажмите кнопку "Решить" ниже, чтобы решить уравнение'
+    Font.Height = 20
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object Button1: TButton
+    Left = 200
+    Height = 36
+    Top = 344
+    Width = 130
+    Caption = 'Решить'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+end

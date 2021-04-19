@@ -1,0 +1,19 @@
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\bin\Debug\Учебная практика.exe.config
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\bin\Debug\Учебная практика.exe
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\bin\Debug\Учебная практика.pdb
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная практика.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.Form1.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.Properties.Resources.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.Абоненты.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.Выбор_таблиц.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.категория_льгот.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.Показания_счетчиков.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.регистрация.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.счетчик.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная_практика.тарифы.resources
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная практика.csproj.GenerateResource.Cache
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная практика.exe
+c:\users\student\documents\visual studio 2013\Projects\Учебная практика\Учебная практика\obj\Debug\Учебная практика.pdb
+C:\Users\student\Desktop\Учебная практика\Учебная практика\bin\Debug\Учебная практика.exe.config
+C:\Users\student\Desktop\Учебная практика\Учебная практика\obj\Debug\Учебная практика.exe
+C:\Users\student\Desktop\Учебная практика\Учебная практика\obj\Debug\Учебная практика.pdb

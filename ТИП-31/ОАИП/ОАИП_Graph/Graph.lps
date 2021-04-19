@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="Graph.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sdf"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="23" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="C:\lazarus\fpc\3.0.2\source\packages\graph\src\win32\graph.pp"/>
+        <UnitName Value="Graph"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="538"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="Graph.lpr"/>
+        <Caret Line="6" Column="6"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Graph.lpr"/>
+        <Caret Column="12"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Graph.lpr"/>
+        <Caret Line="4" Column="9"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Graph.lpr"/>
+        <Caret Line="8" Column="31"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Graph.lpr"/>
+        <Caret Line="5" Column="17"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Graph.lpr"/>
+        <Caret Line="8" Column="20"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Graph.lpr"/>
+        <Caret Line="10"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Graph.lpr"/>
+        <Caret Line="8" Column="7"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

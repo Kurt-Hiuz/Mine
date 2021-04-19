@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1594078105"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/media/pavel/SIMTIP11/ТИП-41/ОП/ЛБ1/lib/x86_64-linux -Fu/usr/share/lazarus/2.0.10/lcl/units/x86_64-linux/gtk2 -Fu/usr/share/lazarus/2.0.10/lcl/units/x86_64-linux -Fu/usr/share/lazarus/2.0.10/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/2.0.10/packager/units/x86_64-linux -Fu/media/pavel/SIMTIP11/ТИП-41/ОП/ЛБ1/ -FU/media/pavel/SIMTIP11/ТИП-41/ОП/ЛБ1/lib/x86_64-linux/ -FE/media/pavel/SIMTIP11/ТИП-41/ОП/ЛБ1/ -o/media/pavel/SIMTIP11/ТИП-41/ОП/ЛБ1/LB1.bin -dLCL -dLCLgtk2 LB1.lpr"/>
+</CONFIG>

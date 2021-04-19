@@ -1,0 +1,13 @@
+D:\ТИП-41\ОП\Popup\Popup\bin\Debug\Popup.exe.config
+D:\ТИП-41\ОП\Popup\Popup\bin\Debug\Popup.exe
+D:\ТИП-41\ОП\Popup\Popup\bin\Debug\Popup.pdb
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\Popup.csprojResolveAssemblyReference.cache
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\MainWindow.baml
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\MainWindow.g.cs
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\App.g.cs
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\Popup_MarkupCompile.cache
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\Popup.g.resources
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\Popup.Properties.Resources.resources
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\Popup.csproj.GenerateResource.Cache
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\Popup.exe
+D:\ТИП-41\ОП\Popup\Popup\obj\Debug\Popup.pdb

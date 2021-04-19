@@ -1,0 +1,73 @@
+object Form1: TForm1
+  Left = 256
+  Height = 400
+  Top = 145
+  Width = 318
+  Caption = 'Учет успеваемости'
+  ClientHeight = 400
+  ClientWidth = 318
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 64
+    Top = 8
+    Width = 281
+    AutoSize = False
+    Caption = 'Введите фамилию студента и оценку через пробел'
+    Font.Height = 30
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+    OptimalFill = True
+  end
+  object Edit1: TEdit
+    Left = 72
+    Height = 23
+    Top = 96
+    Width = 168
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+    TextHint = 'Пример: Симонян 5'
+  end
+  object Button1: TButton
+    Left = 72
+    Height = 48
+    Top = 136
+    Width = 168
+    Caption = 'Добавить в журнал'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 72
+    Height = 128
+    Top = 200
+    Width = 168
+    ItemHeight = 0
+    MultiSelect = True
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 39
+    Top = 344
+    Width = 295
+    AutoSize = False
+    Font.Color = clRed
+    Font.Height = 39
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+    OptimalFill = True
+  end
+  object Button2: TButton
+    Left = 240
+    Height = 25
+    Top = 304
+    Width = 75
+    Caption = 'Удалить'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+end

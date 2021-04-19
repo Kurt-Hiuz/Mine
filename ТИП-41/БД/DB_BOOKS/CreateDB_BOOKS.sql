@@ -1,0 +1,43 @@
+USE DB_BOOKS_SIM;
+CREATE TABLE Authors (
+Code_author INTEGER IDENTITY(1,1) PRIMARY KEY,
+Name_author CHAR(50) NOT NULL,
+Birthday DATE NOT NULL
+);
+
+CREATE TABLE Publishing_house (
+Code_publish INTEGER IDENTITY(1,1) PRIMARY KEY,
+Publish CHAR(50) NOT NULL,
+City CHAR(30) NOT NULL
+);
+
+CREATE TABLE Deliveries (
+Code_delivery INTEGER IDENTITY(1,1) PRIMARY KEY,
+Name_delivery CHAR(30),
+Name_company CHAR(30),
+Adress VARCHAR(100),
+Phone VARCHAR(20),
+Inn CHAR(13)
+);
+
+CREATE TABLE Books (
+Code_book INTEGER IDENTITY(1,1) PRIMARY KEY,
+Title_book CHAR(40) NOT NULL,
+Code_author INTEGER NOT NULL
+FOREIGN KEY REFERENCES Authors(Code_author),
+Pages INTEGER NOT NULL,
+Code_publish INTEGER NOT NULL
+FOREIGN KEY REFERENCES Publishing_house(Code_publish)
+);
+
+CREATE TABLE Purchases (
+Code_purchase INTEGER IDENTITY(1,1) PRIMARY KEY,
+Date_order DATE NOT NULL,
+Code_delivery INTEGER NOT NULL
+FOREIGN KEY REFERENCES Deliveries(Code_delivery),
+Type_purchase BIT NOT NULL,
+Cost MONEY NOT NULL,
+Amount INTEGER NOT NULL,
+Code_book INTEGER NOT NULL
+FOREIGN KEY REFERENCES Books(Code_book)
+)

@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 256
+  Height = 301
+  Top = 130
+  Width = 347
+  Caption = 'Form1'
+  ClientHeight = 301
+  ClientWidth = 347
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 20
+    Top = 24
+    Width = 280
+    Caption = 'Задайте координаты для второй формы'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 96
+    Height = 20
+    Top = 80
+    Width = 9
+    Caption = 'X'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 96
+    Height = 20
+    Top = 120
+    Width = 8
+    Caption = 'Y'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 117
+    Height = 23
+    Top = 80
+    Width = 108
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 117
+    Height = 23
+    Top = 120
+    Width = 108
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 74
+    Top = 199
+    Width = 126
+    Caption = 'Создать'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 192
+    Height = 74
+    Top = 199
+    Width = 126
+    Caption = 'Переместить'
+    TabOrder = 3
+  end
+end

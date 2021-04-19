@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 10
+  Height = 334
+  Top = 214
+  Width = 723
+  Caption = 'Form1'
+  ClientHeight = 334
+  ClientWidth = 723
+  DragKind = dkDock
+  DragMode = dmAutomatic
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object StringGrid1: TStringGrid
+    Left = 7
+    Height = 248
+    Top = 80
+    Width = 712
+    ColCount = 11
+    RowCount = 11
+    ScrollBars = ssNone
+    TabOrder = 0
+    OnMouseUp = StringGrid1MouseUp
+  end
+  object Label1: TLabel
+    Cursor = crHandPoint
+    Left = 248
+    Height = 15
+    Top = 48
+    Width = 131
+    Alignment = taCenter
+    Caption = 'Координаты выделения'
+    Font.Height = 15
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Сумма'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Минимум'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 168
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Среднее'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Cursor = crHandPoint
+    Left = 8
+    Height = 20
+    Top = 16
+    Width = 91
+    Caption = 'По столбцам'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button6: TButton
+    Left = 640
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Среднее'
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 560
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Минимум'
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 480
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Сумма'
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Cursor = crHandPoint
+    Left = 480
+    Height = 20
+    Top = 16
+    Width = 81
+    Caption = 'По строкам'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+end

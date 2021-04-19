@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 254
+  Height = 693
+  Top = 125
+  Width = 837
+  Caption = 'Form1'
+  ClientHeight = 673
+  ClientWidth = 837
+  Menu = MainMenu1
+  LCLVersion = '1.6.4.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 673
+    Top = 0
+    Width = 837
+    Align = alClient
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object MainMenu1: TMainMenu
+    left = 216
+    top = 272
+    object MenuItem1: TMenuItem
+      Caption = 'Файл'
+      object MenuItem4: TMenuItem
+        Caption = 'Создать'
+        OnClick = MenuItem4Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Открыть'
+        OnClick = MenuItem5Click
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Сохранить'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Сохранить как'
+        OnClick = MenuItem7Click
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Выход'
+        OnClick = MenuItem8Click
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Правка'
+      object MenuItem9: TMenuItem
+        Caption = 'Вырезать'
+        OnClick = MenuItem9Click
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'Копировать'
+        OnClick = MenuItem10Click
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Вставить'
+        OnClick = MenuItem11Click
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Формат'
+      object MenuItem12: TMenuItem
+        Caption = 'Шрифт'
+        OnClick = MenuItem12Click
+      end
+      object MenuItem13: TMenuItem
+        Caption = 'Перенос по словам'
+        OnClick = MenuItem13Click
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    left = 368
+    top = 272
+  end
+  object SaveDialog1: TSaveDialog
+    Filter = '.txt (Текстовый файл)|.txt|Все файлы|.'
+    left = 296
+    top = 272
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    Options = [fdAnsiOnly, fdEffects]
+    left = 440
+    top = 272
+  end
+end
